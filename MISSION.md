@@ -436,3 +436,15 @@ Jeremy Howard's Talks        # YouTube
 ### Study Log
 - 2026-04-17: minGPT + llm.c deep dive
 - 2026-04-18: nanoGPT study (successor to minGPT, updated rewrite)
+
+### minGPT Project Demos
+
+**adder** - Train a GPT to add n-digit numbers
+- Fascinating insight: digits of the result are encoded **backwards** to make addition easier to learn
+- Example: 85 + 50 = 135 becomes `"8550531"` (dropping + and =, encoding 135 backwards as "531")
+- Key learning: The model learns addition algorithmically, not by memorizing
+
+**chargpt** - Character-level language model
+- Trains on any text file at character level
+- Supports Shakespeare, text8, enwik8 benchmarks
+
