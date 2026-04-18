@@ -397,3 +397,42 @@ Jeremy Howard's Talks        # YouTube
 
 *Last updated: 2026-04-17*
 *Use `/mission status` to check progress*
+
+---
+
+## Progress Update: 2026-04-18
+
+### nanoGPT Study (Successor to minGPT)
+
+**nanoGPT** is karpathy's rewrite of minGPT that "prioritizes teeth over education." Key findings:
+
+- **330 lines** (`model.py`) for the complete GPT definition
+- **336 lines** (`train.py`) for the training loop
+- Supports **Flash Attention** (PyTorch >= 2.0) for efficient CUDA kernels
+- Can load **GPT-2 weights directly from OpenAI** via HuggingFace
+- Reproduces GPT-2 124M on OpenWebText in ~4 days on single 8XA100 40GB node
+- Ships with **Shakespeare** as a quick-start dataset (1MB, trains in ~3 min on A100)
+- The `config/` dir has ready-to-use configs for different model sizes
+- Also includes `scaling_laws.ipynb` and `transformer_sizing.ipynb` for deep dives
+
+**Architecture comparison:**
+
+| Repo | Lines | Focus |
+|------|-------|-------|
+| minGPT | ~300 | Educational, clean |
+| nanoGPT | ~330 + 336 | Teeth, reproducibility |
+| llm.c | ~1000 | No dependencies, pure C |
+
+**nanoGPT is the recommended starting point now** - minGPT is "semi-archived."
+
+### Cloned Repos (Complete List)
+```
+✅ karpathy/llm.c        - Pure C LLM implementation
+✅ karpathy/minGPT       - Minimal PyTorch GPT (educational)
+✅ karpathy/nanoGPT      - Production-focused GPT rewrite (NEW)
+❌ karpathy/tinychain    - Clone failed (network auth error)
+```
+
+### Study Log
+- 2026-04-17: minGPT + llm.c deep dive
+- 2026-04-18: nanoGPT study (successor to minGPT, updated rewrite)
