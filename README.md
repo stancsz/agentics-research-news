@@ -1,50 +1,58 @@
-# Agentics & AI Mastery 🏹
+# Agentics Research News 🏹
 
-> "Know the leaders, know the frameworks, build the future."
+> AI/Agentic news aggregator with a focus on Chinese AI developments.
 
-A 12-week deep dive into AI agents, LLMs, top leaders, and frameworks. Built by Meow for stancsz.
+Built and maintained by Meow for stancsz.
 
-## What's Here
+## Repository Structure
 
 ```
-studies/          # Deep dive notes on AI leaders and thinkers
-├── karpathy/     # Andrej Karpathy - LLMs, Neural Nets, Zero-to-Hero
-├── mollick/      # Ethan Mollick - AI adoption, human-AI collaboration
-├── fridman/      # Lex Fridman - AI research, deep learning interviews
-├── tan/          # Garry Tan - YC, startups, AI investments
-├── raschka/      # Sebastian Raschka - LLM architecture, Lightning AI
-└── howard/       # Jeremy Howard - fast.ai, democratizing DL
-
-repos/            # Cloned repos for deep code study
-├── llm.c/        # Karpathy's LLM from scratch in pure C
-└── minGPT/       # Karpathy's minimal GPT in PyTorch
-├── nanoGPT/      # Karpathy's GPT in PyTorch (more complete)
-└── hermes-agent/ # Nous Research's self-improving agent (97k stars)
-
-frameworks/       # Framework explorations (LangChain, AutoGPT, etc.)
-people/           # Leader profiles and notes
+agentics-research-news/
+├── AGENT.md              # Agent specification (how to run this repo)
+├── README.md             # This file
+├── MISSION.md            # Long-term mission and roadmap
+│
+├── news/                 # Daily news aggregations
+│   ├── content/          # News entries by date (YYYYMMDD/)
+│   └── README.md         # News format guide
+│
+├── studies/              # Deep dive studies on AI leaders/frameworks
+│   ├── karpathy/         # Andrej Karpathy
+│   ├── mollick/          # Ethan Mollick
+│   ├── fridman/          # Lex Fridman
+│   ├── tan/              # Garry Tan
+│   ├── raschka/          # Sebastian Raschka
+│   ├── howard/           # Jeremy Howard
+│   └── hermes-agent/     # Nous Research Hermes Agent
+│
+└── repos/                # Cloned repos for code study
+    ├── llm.c/            # Karpathy's LLM in pure C
+    ├── minGPT/           # Minimal GPT implementation
+    └── minGPT/           # Production-focused GPT rewrite
 ```
-
-## Mission
-
-See [MISSION.md](./MISSION.md) for the full roadmap and 12-week plan.
 
 ## Quick Links
 
-- [Andrej Karpathy Deep Dive](./studies/karpathy/)
-- [Ethan Mollick Study](./studies/mollick/)
-- [Lex Fridman Study](./studies/fridman/)
-- [Garry Tan Study](./studies/tan/)
-- [Sebastian Raschka Study](./studies/raschka/)
-- [Jeremy Howard Study](./studies/howard/)
-- [Hermes Agent Study](./studies/hermes-agent/) — Nous Research, self-improving agent
+### News
+- [Latest News](./news/content/) — Daily AI/Agentic updates
 
-## Progress
+### Studies
+- [Andrej Karpathy](./studies/karpathy/)
+- [Ethan Mollick](./studies/mollick/)
+- [Lex Fridman](./studies/fridman/)
+- [Garry Tan](./studies/tan/)
+- [Sebastian Raschka](./studies/raschka/)
+- [Jeremy Howard](./studies/howard/)
+- [Hermes Agent](./studies/hermes-agent/)
 
-| Phase | Focus | Status |
-|-------|-------|--------|
-| Phase 1 | Foundations | 🚧 In Progress |
-| Phase 2 | Deep Dive | ⏳ Pending |
-| Phase 3 | Build & Ship | ⏳ Pending |
+### Repos
+- [llm.c](./repos/llm.c/) — LLM from scratch in pure C
+- [minGPT](./repos/minGPT/) — Minimal GPT in PyTorch
 
-*Last updated: 2026-04-17*
+## For Agents
+
+Read [AGENT.md](./AGENT.md) for instructions on how to run this repository as an agent skill.
+
+---
+
+*Last updated: 2026-04-21*
