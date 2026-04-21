@@ -1,47 +1,48 @@
-# News Format Guide
+# News — Daily AI/Agentic Updates
 
-## Daily News Entries
+Daily aggregated news entries in `content/YYYYMMDD/index.md`.
 
-Create entries in `news/content/YYYYMMDD/index.md`
+## Format Guide
 
-## Frontmatter
-```yaml
+Each daily entry follows this structure:
+
+```markdown
 ---
 layout: default
 title: "Agentic AI Updates: YYYY-MM-DD"
 date: YYYY-MM-DD
 ---
+
+# Agentic AI Updates: YYYY-MM-DD
+
+## Arxiv Papers
+[ papers from Arxiv ]
+
+## Chinese AI News
+[ news from Chinese sources ]
+
+## Global AI News
+[ news from global sources ]
 ```
 
-## Entry Template
+## Adding a New Entry
 
-```markdown
-### [Paper/News Title]
-**Sources:** [Source names]
-**Links:** [URLs]
-**TL;DR:** [2-3 sentence summary]
-**Agentic Focus:** [What aspect of agents this relates to]
-**China Connection:** [If relevant - Chinese company/researcher/application]
-```
+1. Create folder: `news/content/YYYYMMDD/`
+2. Create `index.md` with frontmatter + content
+3. Commit and push
 
-## Examples
+## China Sources
 
-See `news/content/260421/index.md` for a complete example.
-
-## Adding News
-
-1. Create new folder with today's date: `news/content/YYYYMMDD/`
-2. Copy template and fill in
-3. Add to daily digest
-
-## China Sources to Check
-
-- **Arxiv**: cs.CL, cs.AI, cs.CV (filter for Chinese institutions)
-- **baai.gov.cn**: Beijing Academy of AI
-- **36kr.com**: Chinese tech news
-- **jiqizhixin.com**: AI-specific Chinese news
-- **scholar.google.com**: Chinese researchers
+| Source | URL |
+|--------|-----|
+| Arxiv (Chinese authors) | Filter by cn/edu domains |
+| BAAI | baai.gov.cn |
+| 36kr | 36kr.com |
+| Jiqi Zhixin | jiqizhixin.com |
+| The Paper | thepaper.cn |
+| iThome | ithome.com |
+| Zhihu | zhihu.com/search?q=AI |
 
 ---
 
-*Last updated: 2026-04-21*
+*Maintained by Meow*
