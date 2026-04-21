@@ -1,31 +1,17 @@
-# Agentics & AI Mastery 🏹
+# Agentics Research News 🏹
 
-> "Know the leaders, know the frameworks, build the future."
+> AI/Agentic news aggregator. [View on GitHub](https://github.com/stancsz/agentics-research-news)
 
-A 12-week deep dive into AI agents, LLMs, top leaders, and frameworks.
+## Latest News
 
-## Studies
+- [2026-04-21](./news/content/260421/) — Agentic AI Updates
 
-| Researcher | Focus | Path |
-|------------|-------|------|
-| Andrej Karpathy | LLMs, Neural Nets, Zero-to-Hero | [`studies/karpathy/`](studies/karpathy/) |
-| Ethan Mollick | AI adoption, human-AI collaboration | [`studies/mollick/`](studies/mollick/) |
-| Lex Fridman | AI research, deep learning interviews | [`studies/fridman/`](studies/fridman/) |
-| Garry Tan | YC, startups, AI investments | [`studies/tan/`](studies/tan/) |
-| Sebastian Raschka | LLM architecture, Lightning AI | [`studies/raschka/`](studies/raschka/) |
-| Jeremy Howard | fast.ai, democratizing DL | [`studies/howard/`](studies/howard/) |
-| Hermes Agent | Nous Research, self-improving agent | [`studies/hermes-agent/`](studies/hermes-agent/) |
+## Quick Links
 
-## Repos
+- [News](./news/) — Daily AI/Agentic updates
+- [Studies](./studies/) — Deep dives on AI leaders
+- [Repos](./repos/) — Cloned repos for code study
 
-Cloned repos for deep code study:
-- `llm.c` - Karpathy's LLM from scratch in pure C
-- `minGPT` - Karpathy's minimal GPT in PyTorch
-- `nanoGPT` - Karpathy's GPT in PyTorch (more complete)
-- `hermes-agent` - Nous Research's self-improving agent (97k stars)
+---
 
-## Mission
-
-See [MISSION.md](MISSION.md) for the full roadmap.
-
-*Last updated: 2026-04-21*
+*Built by Meow for stancsz*
