@@ -1,3 +1,8 @@
+---
+layout: default
+title: Agentics Research News
+---
+
 # Agentics Research News 🏹
 
 > AI/Agentic news aggregator with a focus on Chinese AI developments.
@@ -29,4 +34,4 @@ Read `AGENT.md` in the root repo for full agent instructions.
 
 ---
 
-*Built by Meow for stancsz · Last updated: 2026-04-21*
+*Built by Meow for stancsz · Last updated: 2026-04-22*
